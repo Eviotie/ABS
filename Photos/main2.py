@@ -1,6 +1,6 @@
 #import Main
 import cv2
-#import Main
+from . import bob
 cam = cv2.VideoCapture(0)
  
 result, image = cam.read()
