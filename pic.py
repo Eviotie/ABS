@@ -45,6 +45,6 @@ def crop():
     # Crop the bounding rectangle out of img
     out = img[y:y+h, x:x+w, :].copy()
     show(out)
-#take_pic()    
+take_pic()    
 show()
 crop()
